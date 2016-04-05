@@ -1,6 +1,9 @@
 # Payste.io 
+***
 `Written by AbsorbStudio` 
+***
 `(LegendaryXeo & etement)`
+***
 `"Responsive for dummies"`
 ``
 Payste is a CSS framework for older CMS systems that is lightweight, compact and very impactful for responsive needs.
