@@ -1,4 +1,8 @@
-# [Payste.io] (http://payste.io/) 
+# ![Payste.io] (http://payste.io/) [Paysite.io] (http://payste.io/)
+***
+### H3 BETA VERSION 0.0.2
+***
+`User beware, use at yuor own risk via the MIT license.`
 ***
 `Written by AbsorbStudio` 
 ---
