@@ -1,4 +1,4 @@
-# ![Payste.io] (http://payste.io/) [Paysite.io] (http://payste.io/)
+# ![Payste.io] (http://payste.io/) [Payste.io] (http://payste.io/)
 ***
 ### H3 BETA VERSION 0.0.2
 ***
