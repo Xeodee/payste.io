@@ -27,6 +27,9 @@ Creating a column layout in CSS is very simple with Payste.
 One Column layout Markup:
 ```html
 <section class="col c1">
+    <h2>First Column.<h2> <!-- this adds a header -->
+    <p>Lorem Ipsum</p>
+    </section>
 ```
 
 Very simple? Yes. Now to create a 2 column layout the HTML is simple:
