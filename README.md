@@ -2,7 +2,7 @@
 
 ## BETA VERSION 0.0.5
 `User beware, use at your own risk via the MIT license.`
-Written by AbsorbStudios (LegendaryXeo & etement)
+Written by ![absorbstudio] (http://develop.absorbstudio.com/images/wlogo.png) (LegendaryXeo & etement)
 
 #### "Responsive for dummies"
 
@@ -46,24 +46,24 @@ To add more columns replace c2 with c1-c5.
 
 Adding a fixed navigation:
 ```html
-<header class="fixated box-shadow">
-    <figure>
-        <img src="your/logo.jpg">
-    </figure>
-    <nav>
-        <ul>
-            <li class="fade">
-                <a href="link.html">What We do</a>
-            </li>
-            <li class="fade">
-                <a href="link.html">Who are you?</a>
-            </li>
-            <li class="fade">
-                <a href="link.html">Call me maybe</a>
-            </li>
-        </ul>
-    </nav>
-</header>
+    <header class="fixated box-shadow">
+        <figure>
+            <img src="your/logo.jpg">
+        </figure>
+        <nav>
+            <ul>
+                <li class="fade">
+                    <a href="link.html">What We do</a>
+                </li>
+                <li class="fade">
+                    <a href="link.html">Who are you?</a>
+                </li>
+                <li class="fade">
+                    <a href="link.html">Call me maybe</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 ```
 
-Payste, so simple.. its amazing.
+Just copy and Payste, responsive made simple.
