@@ -121,17 +121,18 @@ id="sub_content" & footer
 Just copy and Payste, responsive made simple.
 
 TODO (as of 0.0.5) 
-*Add nav adjust, left right center: 
-..*nav ul li.right 
-..*nav ul li.left 
-..*nav ul li.center
-*Create Social Media share links.
-..*FaceBook
-..*GitHub
-..*Share
-..*Instagram
-..*Taking Sugestions for more options..
-*Typography
-*UI kit (buttons and forums)
-*UI debugging.js
-*video.js
+
+* Add nav adjust, left right center: 
+    * nav ul li.right 
+    * nav ul li.left 
+    * nav ul li.center
+* Create Social Media share links.
+    * FaceBook
+    * GitHub
+    * Share
+    * Instagram
+    * Taking Sugestions for more options..
+* Typography
+* UI kit (buttons and forums)
+* UI debugging.js
+* video.js
