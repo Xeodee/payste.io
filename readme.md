@@ -1,5 +1,5 @@
 # ![Payste] (http://develop.absorbstudio.com/images/logo.jpg) [Payste] (http://payste.io/) 
-#### Ver 0.0.5
+#### Ver 0.0.7
 
 `Use at your own risk via the MIT license.`
 
