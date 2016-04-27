@@ -2,7 +2,7 @@
 
 ## BETA VERSION 0.0.5
 `User beware, use at your own risk via the MIT license.`
-Written by ![absorbstudio] (http://develop.absorbstudio.com/images/wlogo.png) (LegendaryXeo & etement)
+*Written by ![absorbstudio] (http://develop.absorbstudio.com/images/wlogo.png) (LegendaryXeo & etement)*
 
 #### "Responsive for dummies"
 
@@ -14,26 +14,26 @@ All you need for Payste to work is simply paste the CSS in your head tag and boo
 
 To enable debug mode its simply ..
 ```html
-<body class="debug_on">
+    <body class="debug_on">
+        <!-- Website Content -->
+    </body>
 ```
 
 #### Responsive sections
 
 Creating a column layout in CSS is very simple with Payste.
-
 One Column layout Markup:
 ```html
     <section class="col c1">
-        <h2>First Column.<h2> <!-- this adds a header -->
+        <h2>Single Column<h2> <!-- this adds a header -->
         <p>Lorem Ipsum</p>
     </section>
 ```
-
-Very simple? Yes.
+Simple right? Yes.
 Now to create a 2 column layout the HTML is just as simple:
 ```html
     <section class="col c2">
-        <h2>First Column.<h2> <!-- this adds a header -->
+        <h2>First Column.<h2> 
         <p>Lorem Ipsum</p>
     </section>
     <section class="col c2">
