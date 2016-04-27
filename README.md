@@ -25,9 +25,12 @@ To enable debug mode its simply ..
 Creating a column layout in CSS is very simple with Payste.
 
 One Column layout Markup:
-*<section class="col c1">*
+```html
+<section class="col c1">
+```
 
 Very simple? Yes. Now to create a 2 column layout the HTML is simple:
+```html
     <section class="col c2">
         <h2>First Column.<h2> <!-- this adds a header -->
         <p>Lorem Ipsum</p>
@@ -36,6 +39,7 @@ Very simple? Yes. Now to create a 2 column layout the HTML is simple:
         <h2>Second Column.</h2>
         <p>Lorem Ipsum</p>
     </section>
+```
 
 To add more columns replace c2 with c1-c5.
 
