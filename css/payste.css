@@ -1,7 +1,17 @@
 /*
-	payste.io ux framework | nothing is definite
-	absorbstud.io
-	
+	payste.io css framework
+	...this one is for you haters
+	add some structure to your life
+	and write much faster, smarter html
+
+
+	 ,6"Yb.
+	8)   MM
+	 ,pm9MM
+	8M   MM
+	`Moo9^Yo.
+
+
 /*debug_on media queries - add debug_on class to body */
 .debug_on:before {content: "@dat global template is in use";}
 /*header, footer,nav, section.col, .debug_on, h1, h2, h3, p, ul, ol, div{border: 3px solid blue} */
@@ -13,7 +23,8 @@
 	/* header, footer,nav, section.col, .debug_on, h1, h2, h3, p, ul, ol, div{border: 1px solid red} */}
 .test {display: block;width: 50px;height: 50px;border: 3px solid red;}
 
-/* that reset */
+
+/* Global reset */
 body, div, ul, ol, li, h1, h2, h3, pre, codeinput, textarea, p, blockquote, td {margin: 0;padding: 0}
 table {border-collapse: collapse;border-spacing: 0}img {border: 0}
 address, caption, code, em, strong, var {font-style: normal;font-weight: normal}
@@ -21,60 +32,133 @@ ol, ul {list-style: none}caption {text-align: left}
 h1, h2, h3, h4, h5 {font-size: 100%;font-weight: normal}
 q:before, q:after {content: ''}abbr, acronym {border: 0;font-variant: normal}
 sup {vertical-align: text-top}sub {vertical-align: text-bottom}
-input, textarea, select {font-family: inherit;font-size: inherit;font-weight: inherit}
-input, textarea, select {*font-size:100%;)
-*:focus {outline: 0;}
+input, textarea, select {font-family: inherit;font-size: inherit;
+	font-weight: inherit
+}
+
+input, textarea, select {
+	*font-size: 100%;
+
+*:focus {
+	outline: 0;
+}
+
+}
+/** pretty  */
+h1, h2, figure, nav, .p_container, .p_container p, .col {
+	-moz-transition: font-size .1s;
+	-webkit-transition: font-size .2s;
+	-o-transition: font-size .2s;
+	transition: font-size .1s;
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+
+pbutton {
+	border: 1px solid #262626;
+	width: 20%;
+	height: 10em
+}
+
+}
+.fade {
+	opacity: 1;
+	transition: opacity .25s ease-in;
+	-moz-transition: opacity .25s ease-in;
+	-webkit-transition: opacity .25s ease-in;
+}
+
+.fade:hover {
+	opacity: 0.6;
+}
+
+.opaque {
+	opacity: 1.0;
+	filter: alpha(opacity:100);
 }
 
 /** that global */
-.clear{clear: both;}
-.left {float: left;}.right {float: right}.center {margin: 0 auto}
-.fixated{position: fixed; top: 0; left: 0; right: 0; z-index: 9999; width: 100%}
+.left {
+	float: left;
+}
+
+.right {
+	float: right
+}
+
+.center {
+	margin: 0 auto
+}
+
+.fixated {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	width: 100%
+}
+
 section.col {
 	min-height: 100%;
 	display: block;
 	float: left;
 }
+
 section.col.c1 {
 	min-width: 99.6%;
 	max-width: 100%
 }
+
 section.col.c2 {
 	min-width: 50%;
 	max-width: 50%
 }
+
 section.col.c3 {
 	min-width: 33.3%;
 	max-width: 33.3%
 }
+
 section.col.c4 {
 	min-width: 25%;
 	max-width: 25%
 }
+
 section.col.c5 {
 	min-width: 20%;
 	max-width: 20%
 }
+
 section.col.c6 {
 	min-width: 16.6%;
 	max-width: 16.6%;
 }
-/* that global type */
-h1 {margin-top: 1em;font-size: 2.7em;}
-h2 {font-size: 2.0em}
-h3 {}
-h4 {}
-p{font-size: 1em}
+
+h1 {
+	font-size: 2.7em;
+}
+
+h2 {
+	font-size: 2.0em
+}
+
+h3 {
+}
+
+h4 {
+}
 
 /** that HD */
 @media (min-width: 1280px) {
 	h1 {
 		font-size: 2.9em
 	}
+
 	h2 {
 		font-size: 2.1em
 	}
-	p{font-size: 1.1em}
 }
 
 /** that portrait */
@@ -82,13 +166,16 @@ p{font-size: 1em}
 	h1 {
 		font-size: 2.6em
 	}
+
 	h2 {
 		font-size: 1.9em
 	}
+
 	section.col.c4 {
 		min-width: 50%;
 		max-width: 50%
 	}
+
 	section.col.c6 {
 		min-width: 33.3%;
 		max-width: 33.3%
@@ -103,46 +190,26 @@ p{font-size: 1em}
 		margin: 0 auto;
 		padding: 10px;
 	}
+
 	section.col.c1, section.col.c2, section.col.c3, section.col.c4, section.col.c5, section.col.c6 {
 		min-width: 90%;
 		max-width: 100%;
 	}
+
 	figure {
 		text-align: center
 	}
+
 	nav ul {
 		text-align: center
 	}
+
 	h1 {
 		font-size: 1.9em;
 		text-align: center;
 	}
+
 	h2 {
 		font-size: 1.8em
 	}
-	p{font-size: 1.1em}
-}
-
-/** pretty  */
-/* simple paytste ui kit (optional - delete if not being utlized) */
-.box-shadow{box-shadow: 0 1em 2em rgba(111, 111, 111, 0.4);}
-pbutton {
-	border: 1px solid #333;
-	width: 20%;
-	height: 10em
-}
-.fade {opacity: 1;transition: opacity .25s ease-in;-moz-transition: opacity .25s ease-in;-webkit-transition: opacity .25s ease-in;}
-.fade:hover {opacity: 0.6;}
-.opaque{opacity: 1.0; filter: alpha(opacity:100);}
-/* typography set*/
-h1, h2, h3, p,footer span{padding:  0 2rem 0 2rem;}
-h1, h2, figure, nav, .p_container, .p_container p, .col {
-	-moz-transition: font-size .1s;
-	-webkit-transition: font-size .2s;
-	-o-transition: font-size .2s;
-	transition: font-size .1s;
-	-webkit-transition: all .1s ease;
-	-moz-transition: all .1s ease;
-	-o-transition: all .1s ease;
-	transition: all .1s ease;
-}
+} /* End phone query */
