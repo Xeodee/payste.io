@@ -230,3 +230,10 @@ button#playpausebtn:hover{opacity: 1;}
 	nav ul li a:hover{border: 0}
 	header{height: 90px}
 }
+
+/*
+	TODO:
+	nav ul.left
+	nav ul.right
+	nav ul     			// for center?
+*/
