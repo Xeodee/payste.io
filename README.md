@@ -1,15 +1,18 @@
 # ![Payste] (http://develop.absorbstudio.com/images/logo.jpg) [Payste] (http://payste.io/) 
 #### Ver 0.0.5
 
-[logo]: http://develop.absorbstudio.com/images/abColorLogo.png "absorbstudio.com"
-
 `User beware, use at your own risk via the MIT license.`
 
 #### Written by: 
 
-![alt text][logo] 
-
-*(LegendaryXeo & etement)*
+<section>
+    <p style="font-size:0.5em">
+        <a href="http://absorbstudio.com/">
+            <img src="http://develop.absorbstudio.com/images/abColorLogo.png" alt="absorbstudio.com creators of Payste.">
+        </a>
+         <font size="0.7em">(Xeo & etement)</font>
+    </p>
+</section>
 
 #### "Responsive for dummies"
 
