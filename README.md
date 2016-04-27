@@ -1,29 +1,24 @@
 # ![Payste] (http://develop.absorbstudio.com/images/logo.jpg) [Payste] (http://payste.io/)
-***
-### BETA VERSION 0.0.5
-***
+
+## BETA VERSION 0.0.5
 `User beware, use at your own risk via the MIT license.`
-***
-`Written by AbsorbStudio` 
----
-`(LegendaryXeo & etement)`
-***
-`"Responsive for dummies"`
-***
+Written by AbsorbStudios (LegendaryXeo & etement)
+
+#### "Responsive for dummies"
+
 Payste is a CSS framework for older CMS systems that is lightweight, compact and very impactful for responsive needs.
-***
+
 All you need for Payste to work is simply paste the CSS in your head tag and boom, you magically have a working, responsive site that was built in the dino ages! 
-***
-`How to use`
-***
+
+#### How to use
+
 To enable debug mode its simply ..
 ```html
 <body class="debug_on">
 ```
 
-***
-`Responsive sections`
-***
+#### Responsive sections
+
 Creating a column layout in CSS is very simple with Payste.
 
 One Column layout Markup:
@@ -34,7 +29,8 @@ One Column layout Markup:
     </section>
 ```
 
-Very simple? Yes. Now to create a 2 column layout the HTML is simple:
+Very simple? Yes.
+Now to create a 2 column layout the HTML is just as simple:
 ```html
     <section class="col c2">
         <h2>First Column.<h2> <!-- this adds a header -->
@@ -47,5 +43,27 @@ Very simple? Yes. Now to create a 2 column layout the HTML is simple:
 ```
 
 To add more columns replace c2 with c1-c5.
+
+Adding a fixed navigation:
+```html
+<header class="fixated box-shadow">
+    <figure>
+        <img src="your/logo.jpg">
+    </figure>
+    <nav>
+        <ul>
+            <li class="fade">
+                <a href="link.html">What We do</a>
+            </li>
+            <li class="fade">
+                <a href="link.html">Who are you?</a>
+            </li>
+            <li class="fade">
+                <a href="link.html">Call me maybe</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+```
 
 Payste, so simple.. its amazing.
