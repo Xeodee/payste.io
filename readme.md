@@ -135,7 +135,8 @@ Responsive fixed navigation:
 Just copy and Payste. Responsive made simple.
 
 ### TODO (as of 0.0.5) 
-
+- [ ] Change row logic
+- [ ] Create spacing.css
 - [x] Add nav adjust, left right center: 
     - [x] nav.right ul li 
     - [x] nav.left ul li
