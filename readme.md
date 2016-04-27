@@ -21,6 +21,8 @@
 Payste is a CSS framework for older CMS systems that is lightweight, compact and very impactful for responsive needs. For people looking to run their entire site with Payste we made it easy to include what you need by separating the CSS files.
 
 Payste Components:
+    * _payste.css_ This is the core responsive logic
+    * _style.css_ Legacy file which is about to be rolled into new files
 	* _payste-ui-kit.css_ This contains all the buttons, alerts and form elements
 	* _payste-debug.css_ This is for development
 	* _payste-typography.css_ This contains all the different font modifications
@@ -134,11 +136,11 @@ Just copy and Payste. Responsive made simple.
 
 ### TODO (as of 0.0.5) 
 
-- [ ] Add nav adjust, left right center: 
-    - [ ] nav ul li.right 
-    - [ ] nav ul li.left 
-    - [ ] nav ul li.center
-- [ ] Create Social Media share link icons
+- [x] Add nav adjust, left right center: 
+    - [x] nav.right ul li 
+    - [x] nav.left ul li
+    - [x] nav.center ul li
+- [x] Create Social Media share link icons
     - [ ] FaceBook
     - [ ] GitHub
     - [ ] Share
