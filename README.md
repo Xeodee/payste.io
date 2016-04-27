@@ -17,7 +17,9 @@ All you need for Payste to work is simply paste the CSS in your head tag and boo
 `How to use`
 ***
 To enable debug mode its simply ..
-*<body class="debug_on">*
+```html
+<body class="debug_on">
+```
 
 ***
 `Responsive sections`
@@ -26,9 +28,9 @@ Creating a column layout in CSS is very simple with Payste.
 
 One Column layout Markup:
 ```html
-<section class="col c1">
-    <h2>First Column.<h2> <!-- this adds a header -->
-    <p>Lorem Ipsum</p>
+    <section class="col c1">
+        <h2>First Column.<h2> <!-- this adds a header -->
+        <p>Lorem Ipsum</p>
     </section>
 ```
 
