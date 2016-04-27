@@ -2,8 +2,9 @@
 
 ## BETA VERSION 0.0.5
 `User beware, use at your own risk via the MIT license.`
-*Written by ![absorbstudio] (http://develop.absorbstudio.com/images/wlogo.png) (LegendaryXeo & etement)*
-
+***
+Written by ![absorbstudio] (http://develop.absorbstudio.com/images/abColorLogo.png) (LegendaryXeo & etement)
+***
 #### "Responsive for dummies"
 
 Payste is a CSS framework for older CMS systems that is lightweight, compact and very impactful for responsive needs.
