@@ -10,28 +10,34 @@
         <a href="http://absorbstudio.com/">
             <img src="http://develop.absorbstudio.com/images/abColorLogo.png" alt="absorbstudio.com creators of Payste.">
         </a>
-         <font size="0.7em">(Xeo & etement)</font>
     </p>
 </section>
 
-#### Just copy and Payste *"Responsive for dummies"*
+* [LegendaryXeo](http://github.com/xeodee) :smiling_imp: :purple_heart: :boom:
+* [etement](http://github.com/absorbstudio) :facepunch: :+1: :camel: 
+
+#### Just copy and Payste.. *Responsive for dummies* :clipboard:
 
 Payste is a CSS framework for older CMS systems that is lightweight, compact and very impactful for responsive needs.
 
-All you need for Payste to work is simply paste the CSS in your head tag and boom, you magically have a working, responsive site that was built in the dino ages! 
+All you need for Payste to work is simply paste *(get it?)* the CSS in your head tag and boom :boom: :exclamation: You magically have a working, responsive site. 
 
-#### How to use
+#### Why use Payste:question:
+
+We thought really hard about all the logic in this app. We also designed this to leave as little of a foot print as possible and use very little space.
+
+## Using Payste
 
 Debug mode
 ```html
-    <body class="debug_on">
-        <!-- Website Content -->
-    </body>
+<body class="debug_on">
+    <!-- Website Content -->
+</body>
 ```
 
-#### Responsive sections
+#### Responsive column layout
 
-Creating a column layout in CSS is very simple with Payste.
+Responsive columns are simple with Payste.
 One Column layout Markup:
 ```html
 <section id="main_content">
@@ -42,7 +48,7 @@ One Column layout Markup:
 </section>
 ```
 
-To create a 2 column layout, the HTML is simple:
+To create a 2 column layout with Payste, the HTML is simple:
 ```html
 <section id="main_content">
     <section class="col c2">
@@ -56,7 +62,7 @@ To create a 2 column layout, the HTML is simple:
 </section> 
 ```
 
-To add more columns replace c2 with c1-c5.
+To add more columns replace `class="col c2"` with `class="col c3"` all the way up to `class="col c6"`.
 
 #### Other things we have added..
 
@@ -82,7 +88,7 @@ Responsive fixed navigation:
 </header>
 ```
 
-id="sub_content" & footer
+`<section id="sub_content">` & `<footer>` for after your main column content.
 ```html
 <section id="main_content">
     <!-- columns here -->
@@ -118,15 +124,15 @@ id="sub_content" & footer
 </footer>
 ```
 
-Just copy and Payste, responsive made simple.
+Just copy and Payste. Responsive made simple.
 
-TODO (as of 0.0.5) 
+### TODO (as of 0.0.5) 
 
 - [ ] Add nav adjust, left right center: 
     - [ ] nav ul li.right 
     - [ ] nav ul li.left 
     - [ ] nav ul li.center
-- [ ] Create Social Media share links.
+- [ ] Create Social Media share link icons
     - [ ] FaceBook
     - [ ] GitHub
     - [ ] Share
@@ -134,5 +140,20 @@ TODO (as of 0.0.5)
     - [ ] Taking Sugestions for more options..
 - [ ] typography.css
 - [ ] ui-kit.css (buttons and forums)
+    - [ ] form input
+    - [ ] form buttons
+    - [ ] progress bar
+    - [ ] labels
+    - [ ] alerts (mainly for ajax)
+- [ ] Dropdown menu 
 - [ ] UI-debugging.js
 - [ ] video.js
+
+```
+	 ,6"Yb.  
+	8)   MM  
+	 ,pm9MM  
+	8M   MM  
+	`Moo9^Yo.
+```
+Visit [absorbstudio](http://absorbstudio.com)
