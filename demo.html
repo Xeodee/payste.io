@@ -1,52 +1,257 @@
-<!DOCTYPE html>
+<!doctype html>
+<!--
+
+	 ,6"Yb.
+	8)   MM
+	 ,pm9MM
+	8M   MM
+	`Moo9^Yo.
+
+-->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Payste.io, light weight responsive</title>
-    <link rel="stylesheet" href="css/reset.css" media="all">
-    <link rel="stylesheet" href="css/payste.css" media="all">
+    <title>absorbstudio | results-driven marketing & development</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/payste.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js"></script>
+    <script src="//scripts/payste.js"></script>
+    <script src="//scripts/absorb-video.js"></script>
 </head>
-<body>
+
+<body class="debug_on">
+<header class="fixated box-shadow">
+    <figure><img src="images/logo.jpg" alt="absorbstudio" /></figure>
     <nav>
         <ul>
-            <li></li>
+            <li class="fade"><a href="">what we do</a></li>
+            <li class="fade"><a href="">how we do it</a></li>
+            <li class="fade"><a href="reach.htm">get in touch</a></li>
         </ul>
     </nav>
+</header>
+<section id="video"> <img src="images/wlogo.png" alt="absorbstudio" id="videolo">
+    <button id="playpausebtn" class="fade" onclick="playPause(this,'sunrise')">||</button>
+    <video id="sunrise" autoplay loop='loop' preload='auto' class="center">
+        <source src='video/sunrise3.webm' type='video/webm'>
+        <source src='video/sunrise3.mp4' type='video/mp4'>
+    </video>
+</section>
+<section id="icons">
+    <a href="">
+        <img src="">
+    </a>
+    <a href="">
+        <img src="">
+    </a>
+    <a href="">
+        <img src="">
+    </a>
+</section>
 
-    <!-- Row structure, you can assign classes to designate the types of sections -->
-
-    <!-- .showCaseSlide will be added in the enterprise version with payste.js -->
-    <section class="showCaseSlide">
-        <div class="row">
-            <div class="slide">
-                <img src="" alt="">
-            </div>
-            <div class="slide">
-                <img src="" alt="">
-            </div>
-            <div class="slide">
-                <img src="" alt="">
-            </div>
-        </div>
+<section class="mainContent"> <!-- cannot use id twice -->
+    <h1><strong>absorb</strong>studio: websites <span class="gray">(for you)</span></h1>
+    <section class="col c1">
+        <h2>One Column Layout</h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices quam et nisi malesuada vestibulum. Quisque sagittis enim vel tellus mollis iaculis. Nam pharetra pulvinar dui. Quisque gravida dapibus turpis, quis tristique libero consequat non. Aenean sit amet mi velit. Vestibulum eget vehicula orci, sit amet vehicula odio. </p><br />
+    </section>
+    <section class="col c2">
+        <h2>Two Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
+    <section class="col c2">
+        <h2>Two Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
+    <section class="col c3">
+        <h2>Three Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
+    <section class="col c3">
+        <h2>Three Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
+    <section class="col c3">
+        <h2>Three Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
     </section>
 
-    <!-- .row-full extends to the end of the view port and ignores gutters -->
+    <section class="col c4">
+        <h2>Four Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
+    <section class="col c4">
+        <h2>Four Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
+    <section class="col c4">
+        <h2>Four Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
+    <section class="col c4">
+        <h2>Four Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
 
-    <section>
-        <div class="row-full">
-            <div class="col3">
+    <section class="col c5">
+        <h2>Five Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
+    <section class="col c5">
+        <h2>Five Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
+    <section class="col c5">
+        <h2>Five Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
+    <section class="col c5">
+        <h2>Five Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
+    <section class="col c5">
+        <h2>Five Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
 
-            </div>
-            <div class="col3">
+    <section class="col c6">
+        <h2>Six Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
+    <section class="col c6">
+        <h2>Six Column Layout </h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
+    <section class="col c6">
+        <h2> Six Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
+    <section class="col c6">
+        <h2> Six Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
+    <section class="col c6">
+        <h2>Six Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
+    <section class="col c6">
+        <h2> Six Column Layout</h2>
+        <p> Donec pellentesque lacus ligula, vel rhoncus leo placerat eget. Duis tortor dui, pretium vel pharetra a, iaculis nec massa. Aenean in varius ante. Sed turpis nisi, gravida non erat ut, aliquam auctor nisi. Donec hendrerit ut eros nec placerat. </p>
+    </section>
 
-            </div>
-            <div class="col3">
+</section>
 
-            </div>
-        </div>
+<section class="mainContent">
+    <h1><strong>absorb</strong>studio: websites <span class="gray">(for you)</span></h1>
+
+    <section class="col c1">
+        <h2>One Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+
+    <section class="col c2">
+        <h2>Two Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+    <section class="col c2">
+        <h2>Two Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+
+    <section class="col c3">
+        <h2>Three Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+    <section class="col c3">
+        <h2>Three Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+    <section class="col c3">
+        <h2>Three Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+
+    <section class="col c4">
+        <h2>Four Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+    <section class="col c4">
+        <h2>Four Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+    <section class="col c4">
+        <h2>Four Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+    <section class="col c4">
+        <h2>Four Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
     </section>
 
 
+    <section class="col c5">
+        <h2>Five Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+    <section class="col c5">
+        <h2>Five Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+    <section class="col c5">
+        <h2>Five Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+    <section class="col c5">
+        <h2>Five Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+    <section class="col c5">
+        <h2>Five Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+    <section class="col c6">
+        <h2>Six Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+    <section class="col c6">
+        <h2>Six Column Layout </h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+    <section class="col c6">
+        <h2> Six Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+    <section class="col c6">
+        <h2> Six Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+    <section class="col c6">
+        <h2>Six Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+    <section class="col c6">
+        <h2> Six Column Layout</h2>
+        <img src="https://metalheadreview.files.wordpress.com/2010/03/square-3d-logo1.png" width="100%" />
+    </section>
+</section>
+<section class="subContent">
+    <section class="col c3">
+        <img src="images/tree.jpg" alt="pretty simple responsive">
+    </section>
+    <section class="col c3">
+        <h2> fluid. simple. responsive.</h2>
+        <h2 class="gray">nothing is definite</h2>
+    </section>
+    <section class="col c3">
+        <button id="what" class="fade">find out what we do</button>
+    </section>
+</section>
+<footer>
+    <h3>a better experience</h3>
+    <span id="footer_c"><strong>absorb</strong>studio.com &copy;2011-2016</span>
+    <section class="col c6"><img  src="images/share.svg" width="40%" /></section>
+</footer>
 </body>
 </html>
