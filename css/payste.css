@@ -13,7 +13,7 @@
 
 
 /*debug_on media queries - add debug_on class to body */
-.debug_on:before {content: "@dat global template is in use";}
+.debug_on:before {content: "@dat global template is in use";position: fixed;bottom:0;left:0;width:100%;background: #666;}
 /*header, footer,nav, section.col, .debug_on, h1, h2, h3, p, ul, ol, div{border: 3px solid blue} */
 @media (min-width: 1280px) {.debug_on:before {content: "@dat HD template is in use";}
 	/*header, footer,nav, section.col, .debug_on, h1, h2, h3, p, ul, ol, div{border: 4px solid green} */}
@@ -205,11 +205,11 @@ h4 {
 	}
 
 	h1 {
-		font-size: 1.9em;
+		font-size: 1.9rem;
 		text-align: center;
 	}
 
 	h2 {
-		font-size: 1.8em
+		font-size: 1.8rem
 	}
 } /* End phone query */

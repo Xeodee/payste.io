@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/payste.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/payste-social-media.css">
+    <link rel="stylesheet" href="css/payste-spacing.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js"></script>
@@ -22,7 +23,8 @@
     <script src="js/absorb-video.js"></script>
 </head>
 
-<body><!-- <body class="debug_on"> -->
+<body class="debug_on"><!-- <body class="debug_on"> -->
+
 <header class="fixated box-shadow loadHidden transitionTiming300">
     <figure><img src="images/logo.jpg" alt="absorbstudio" /></figure>
     <nav>
@@ -34,6 +36,8 @@
     </nav>
 </header>
 
+<!-- optional content -->
+
 <section id="video"> <img src="images/wlogo.png" alt="absorbstudio" id="videolo">
     <button id="playpausebtn" class="fade" onclick="playPause(this,'sunrise')">||</button>
     <video id="sunrise" autoplay loop='loop' preload='auto' class="center">
@@ -42,21 +46,9 @@
     </video>
 </section>
 
-<!-- Check out .socialMediaIcons
-<section class="icons">
-    <a href="">
-        <img src="">
-    </a>
-    <a href="">
-        <img src="">
-    </a>
-    <a href="">
-        <img src="">
-    </a>
-</section>
--->
+<!-- responsive content -->
 
-<section class="mainContent"> <!-- cannot use id twice -->
+<section class="mainContent">
     <h1><strong>absorb</strong>studio: websites <span class="gray">(for you)</span></h1>
     <section class="col c1">
         <h2>One Column Layout</h2>

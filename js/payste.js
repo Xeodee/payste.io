@@ -69,6 +69,12 @@ $(document).ready (function() {
 
 		});
 
+		$('.socialMediaIcons a').hover(function(){
+			$(this).addClass('mb0');
+		},function(){
+			$(this).removeClass('mb0');
+		});
+
 	});
 });
 

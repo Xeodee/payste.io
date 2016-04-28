@@ -1,0 +1,15 @@
+.mb0, .ma0{
+    margin-bottom: 0;
+}
+
+.mt0, .ma0{
+    margin-top: 0;
+}
+
+.mr0, .mlr0, .ma0 {
+    margin-right: 0;
+}
+
+.ml0, .mlr0, .ma0 {
+    margin-left: 0;
+}
