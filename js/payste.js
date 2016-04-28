@@ -16,16 +16,7 @@ $(document).ready (function() {
 
 	// when rendering the dom ...
 
-	$(window).load(function(){
-		sT = parseInt($(window).scrollTop());
-		$('.socialMediaIcons ul li a').addClass('transitionTiming300').removeClass('loadHidden');
-		setTimeout(function(){
-			$('header').removeClass('loadHidden');
-			if(sT < vidHeight){
-				$('header').addClass('opaque')
-			}
-		},500);
-	});
+
 
 	// on scroll measurements
 
@@ -69,10 +60,40 @@ $(document).ready (function() {
 
 		});
 
-		$('.socialMediaIcons a').hover(function(){
-			$(this).addClass('mb0');
+		function repositionMediaIcons(){
+			$.each($('.socialMediaIcons ul li a'),function(el,k){
+				var positionTop = $('.socialMediaIcons ul li a')[el].getBoundingClientRect().top,
+					positionLeft = $('.socialMediaIcons ul li a')[el].getBoundingClientRect().left,
+					correctedPositionTop = positionTop-20;
+				$(this).css({
+					'position':'fixed',
+					'bottom' : '-30px',
+					'left' : positionLeft+'px'
+				});
+			})
+		};
+
+		$(window).load(function(){
+			sT = parseInt($(window).scrollTop());
+			$('.socialMediaIcons ul li a').addClass('transitionTiming300').removeClass('loadHidden');
+			setTimeout(function(){
+				$('header').removeClass('loadHidden');
+				if(sT < vidHeight){
+					$('header').addClass('opaque')
+				}
+			},500);
+		});
+
+		$('.socialMediaIcons ul li a').hover(function(){
+
+			$(this).css({
+				'bottom':'0'
+			});
 		},function(){
-			$(this).removeClass('mb0');
+
+			$(this).css({
+				'bottom':'-30px'
+			});
 		});
 
 	});

@@ -15,9 +15,27 @@
 */
 
 .socialMediaIcons {
-    position: fixed;
-    bottom: 0;
+    position:fixed;
+    padding: 20px 10px 5px 10px;
     right: 0;
+    bottom: -60px;
+    background: #777;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-right: 7px;
+    border:3px solid white;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+.socialMediaIcons:hover {
+    bottom:-3px;
+}
+.socialMediaIcons h4 {
+    text-align: center;
+    margin: 0;
 }
 .socialMediaIcons ul {
     list-style-type: none;
@@ -29,7 +47,6 @@
 .socialMediaIcons ul li a{
     float: left;
     display: block;
-    margin-bottom: -30px;
     margin-right:10px;
     width: 45px;
     height: 45px;
