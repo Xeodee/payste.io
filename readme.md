@@ -13,8 +13,8 @@
     </p>
 </section>
 
-* [LegendaryXeo](http://github.com/xeodee) :smiling_imp: :purple_heart: :boom:
-* [etement](http://github.com/absorbstudio) :facepunch: :+1: :camel: 
+* [LegendaryXeo](http://github.com/xeodee) -_Steve McCard_ :smiling_imp: :purple_heart: :boom:
+* [etement](http://github.com/absorbstudio) -_Dean Azark_ :facepunch: :+1: :camel: 
 
 #### Just copy and Payste.. *Responsive for dummies* :clipboard:
 
