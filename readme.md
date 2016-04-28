@@ -136,19 +136,15 @@ Just copy and Payste. Responsive made simple.
 
 ### TODO (as of 0.0.5) 
 - [ ] Change row logic
-- [ ] Create spacing.css
-- [ ] Add Video Size detection
-- [ ] Fix navigation for mobile view
+- [x] Create spacing.css
+- [x] Add Video Size detection
+- [x] Fix navigation for mobile view
 - [x] Add nav adjust, left right center: 
     - [x] nav.right ul li 
     - [x] nav.left ul li
     - [x] nav.center ul li
-- [x] Create Social Media share link icons
-    - [ ] FaceBook
-    - [ ] GitHub
-    - [ ] Share
-    - [ ] Instagram
-    - [ ] Taking Sugestions for more options..
+- [x] Create Social Media share hover tab
+- [ ] CSS markup for icons
 - [ ] typography.css
 - [ ] ui-kit.css (buttons and forums)
     - [ ] form input
