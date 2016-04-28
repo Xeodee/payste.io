@@ -25,16 +25,8 @@
 }
 .socialMediaIcons ul li {
     display: inline;
-    /*
-    position: relative;
-    */
 }
-.socialMediaIcons ul li a {
-    /*
-    position:absolute;
-    bottom: 0;
-    right: 0;
-    */
+.socialMediaIcons ul li a{
     float: left;
     display: block;
     margin-right:10px;
@@ -46,20 +38,14 @@
     text-indent: -9999em;
     border: 3px solid white;
     padding: 5px;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-    transiton: .5s;
 }
-.socialMediaIcons.hidden ul li a{
+.socialMediaIcons ul li a.loadHidden{
+    opacity: 0;
+}
+.socialMediaIcons ul li a{
     opacity: 0.1;
 }
 
 .socialMediaIcons ul li a:hover {
     opacity: 0.8;
-    /*
-    width:75px;
-    height:75px;
-    */
 }

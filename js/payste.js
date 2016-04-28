@@ -5,24 +5,70 @@
 
 // opacity on scroll controls 
 $(document).ready (function() {
+	var sT = 0,
+		vidHeight = parseInt($('#video').height()),
+		totalPageLength = parseInt($('body').height()),
+		scrolledPercent = parseInt((sT / totalPageLength));
 
-	$('.socialMediaIcons').addClass('hidden');
+	// init at dom level ...
 
-	$( window ).width(function (){ 
-		$(window).scroll(function () {
-		var sT = $(this).scrollTop();
-			if (sT >> 300) {
-				$('header').addClass("opaque");
-				$('.socialMediaIcons').addClass('hidden');
-			} if (sT >> 800) {
-				$('figure img').addClass("mini fade");
-				$('.socialMediaIcons').addClass('hidden');
-			}else {
-				$('header').removeClass('opaque fade');
-				$('figure img').removeClass('mini');
-				$('.socialMediaIcons').removeClass('hidden');
+	$('.socialMediaIcons ul li a').addClass('loadHidden');
+
+	// when rendering the dom ...
+
+	$(window).load(function(){
+		sT = parseInt($(window).scrollTop());
+		$('.socialMediaIcons ul li a').addClass('transitionTiming300').removeClass('loadHidden');
+		setTimeout(function(){
+			$('header').removeClass('loadHidden');
+			if(sT < vidHeight){
+				$('header').addClass('opaque')
 			}
-			});
+		},500);
+	});
+
+	// on scroll measurements
+
+	$(window).width(function () {
+		$(window).scroll(function () {
+
+			sT = parseInt($(window).scrollTop()),
+				scrolledPercent = parseInt($(window).scrollTop() / ($('body').height()-$(window).height()) * 100),
+				headerTotalHeight = parseInt($('header').outerHeight());
+
+
+			console.log(scrolledPercent);
+
+			if (sT < vidHeight && scrolledPercent < 90) {
+				$('header').addClass("opaque");
+			}
+			if (sT > vidHeight && scrolledPercent < 90) {
+				$('figure img').addClass("mini fade");
+				$('header').removeClass('opaque fade');
+			}
+			if(scrolledPercent > 90){
+				$('header').attr('style','margin-top: -'+headerTotalHeight+'px;');
+				console.log('>')
+			}
+			if(scrolledPercent < 90){
+				$('header').attr('style','margin-top: 0').delay(500).removeAttr('style');
+				console.log('<')
+
+			}
+		});
+		$('header').hover(function () {
+			console.log($(this).attr('class'))
+			$(this).addClass('opaque');
+
+		}, function () {
+			console.log('Top: ' + sT + ' Video end: ' + vidHeight + ' ')
+			console.log($(this).attr('class'))
+			if ($(this).hasClass('opaque') && sT > vidHeight) {
+				$(this).removeClass('opaque')
+			}
+
+		});
+
 	});
 });
 

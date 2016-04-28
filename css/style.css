@@ -105,13 +105,12 @@ header {
 	bottom: 0
 	display: inline-table;
 	border-bottom: 15px solid #343533;
-	width: 200px;
 	float: left;
 	box-shadow: outset 0 10px 0 black;
 	opacity: .6;
-	width:;
 	margin: 0 auto;
-	width: 100%
+	width: 100%;
+
 }
 
 footer {
@@ -294,4 +293,30 @@ button#playpausebtn:hover {
 	header {
 		height: 90px
 	}
+}
+.transitionTiming500{
+	-webkit-transition: 500ms;
+	-moz-transition: 500ms;
+	-ms-transition: 500ms;
+	-o-transition: 500ms;
+	transition: 500ms;
+}
+.transitionTiming300{
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-ms-transition: 300ms;
+	-o-transition: 300ms;
+	transition: 300ms;
+}
+.transitionTiming1000{
+	-webkit-transition: 1000ms;
+	-moz-transition: 1000ms;
+	-ms-transition: 1000ms;
+	-o-transition: 1000ms;
+	transition: 1000ms;
+}
+
+.loadHidden{
+	opacity: 0 !important;
+
 }
