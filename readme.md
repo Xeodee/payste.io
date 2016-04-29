@@ -1,14 +1,14 @@
-# ![Payste] (http://develop.absorbstudio.com/images/logo.jpg) [Payste] (http://payste.io/) 
+# ![payste] (http://develop.absorbstudio.com/images/logo.jpg) [payste] (http://payste.io/) 
 #### Ver 0.0.7
 
 `Use at your own risk via the MIT license.`
 
-#### Written by: 
+#### written by: 
 
 <section>
     <p style="font-size:0.5em">
         <a href="http://absorbstudio.com/">
-            <img src="http://develop.absorbstudio.com/images/abColorLogo.png" alt="absorbstudio.com creators of Payste.">
+            <img src="http://develop.absorbstudio.com/images/abColorLogo.png" alt="absorbstudio.com creators of payste.">
         </a>
     </p>
 </section>
@@ -16,11 +16,11 @@
 * [LegendaryXeo](http://github.com/xeodee) -_Steve McCard_ :smiling_imp: :purple_heart: :boom:
 * [etement](http://github.com/absorbstudio) -_Dean Azark_ :facepunch: :+1: :camel: 
 
-#### Just copy and Payste.. *Responsive for dummies* :clipboard:
+#### just copy and payste.. *Responsive for dummies* :clipboard:
 
-Payste is a CSS framework for older CMS systems that is lightweight, compact and very impactful for responsive needs. For people looking to run their entire site with Payste we made it easy to include what you need by separating the CSS files.
+payste is a CSS framework for older CMS systems that is lightweight, compact and very impactful for responsive needs. For people looking to run their entire site with payste we made it easy to include what you need by separating the CSS files.
 
-Payste Components:
+payste Components:
 
 	payste.css - The core responsive column and media calls
 	style.css - Legacy file which is about to be rolled into new files
@@ -29,13 +29,13 @@ Payste Components:
 	payste-typography.css - This contains all the different font modifications
 	payste-social-media.css - This has all the icon work for social medias
 
-All you need for Payste to work is simply paste *(get it?)* the CSS in your head tag and boom :boom: :exclamation: You magically have a working, responsive site. 
+All you need for payste to work is simply paste *(get it?)* the CSS in your head tag and boom :boom: :exclamation: You magically have a working, responsive site. 
 
-#### Why use Payste:question:
+#### Why use payste:question:
 
 We thought really hard about all the logic in this app. We also designed this to leave as little of a foot print as possible and use very little space.
 
-## Using Payste
+## Using payste
 
 Debug mode
 ```html
@@ -46,7 +46,7 @@ Debug mode
 
 #### Responsive column layout
 
-Responsive columns are simple with Payste.
+Responsive columns are simple with payste.
 One Column layout Markup:
 ```html
 <section id="main_content">
@@ -57,7 +57,7 @@ One Column layout Markup:
 </section>
 ```
 
-To create a 2 column layout with Payste, the HTML is simple:
+To create a 2 column layout with payste, the HTML is simple:
 ```html
 <section id="main_content">
     <section class="col c2">
@@ -114,7 +114,7 @@ Responsive fixed navigation:
     </section>
 </section>
 <footer>
-    <h3>Some words we live by...</h3>
+    <h3>some words we live by...</h3>
     <span class="footer_c">mywebsite.com &copy;</span>
     <section class="socialMedia"> <!-- This does not exist yet, its in the TODO list. -->
         <section class="col c6">
@@ -133,7 +133,7 @@ Responsive fixed navigation:
 </footer>
 ```
 
-Just copy and Payste. Responsive made simple.
+Just copy and payste. Responsive made simple.
 
 ### TODO (as of 0.0.5) 
 - [ ] Change row logic
