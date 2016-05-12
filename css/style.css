@@ -39,7 +39,12 @@ nav ul li {
 }
 
 nav ul li:hover {
+    /*
 	opacity: 0.6;
+    */
+
+    opacity: 1;
+    background: red;
 }
 
 nav ul li a {
@@ -295,10 +300,10 @@ button#playpausebtn:hover {
 		height: 90px
 	}
 
-	section.socialMediaIcons ul li a{
+	/*section.socialMediaIcons ul li a{
 		width: 30px;
 		height: 30px;
-	}
+	}*/
 }
 
 .transitionTiming500{
